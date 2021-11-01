@@ -3,6 +3,8 @@ const loggerMiddleWare = require("morgan");
 const corsMiddleWare = require("cors");
 const { PORT } = require("./config/constants");
 const authRouter = require("./routers/auth");
+const producesRouter = require("./routers/produces");
+
 const authMiddleWare = require("./auth/middleware");
 
 const app = express();
@@ -123,7 +125,7 @@ app.post("/authorized_post_request", authMiddleWare, (req, res) => {
   });
 });
 
-app.use("/", authRouter);
+app.use("/", authRouter, producesRouter);
 
 // Listen for connections on specified port (default is port 4000)
 
