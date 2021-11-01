@@ -9,7 +9,11 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      user.belongsTo(models.country);
+      user.belongsToMany(models.produce, {
+        through: "userProduces",
+        foreignKey: "userId",
+      });
     }
   }
   user.init(
@@ -25,6 +29,25 @@ module.exports = (sequelize, DataTypes) => {
       },
       password: {
         type: DataTypes.STRING,
+        allowNull: false,
+      },
+      profileImg: {
+        type: DataTypes.STRING,
+      },
+      website: {
+        type: DataTypes.STRING,
+      },
+      phone: {
+        type: DataTypes.STRING,
+      },
+      description: {
+        type: DataTypes.TEXT,
+      },
+      location: {
+        type: DataTypes.STRING,
+      },
+      countryId: {
+        type: DataTypes.INTEGER,
         allowNull: false,
       },
     },

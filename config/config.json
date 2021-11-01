@@ -1,6 +1,6 @@
 {
   "development": {
-    "url": "YOUR_ELEPHANTSQL_URL_HERE",
+    "url": "postgres://bstaurol:iAs5FEUAMidzQL5TFWYlAW1uuVg2mRYp@hattie.db.elephantsql.com/bstaurol",
     "dialect": "postgres",
     "operatorsAliases": "0"
   },

@@ -21,6 +21,31 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      profileImg: {
+        type: Sequelize.STRING,
+      },
+      website: {
+        type: Sequelize.STRING,
+      },
+      phone: {
+        type: Sequelize.STRING,
+      },
+      description: {
+        type: Sequelize.TEXT,
+      },
+      location: {
+        type: Sequelize.STRING,
+      },
+      countryId: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "countries",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "SET NULL",
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
