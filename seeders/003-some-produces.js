@@ -88,7 +88,7 @@ module.exports = {
         {
           name: "Cauliflower",
           imageUrl:
-            "https://www.eattobeat.org/uploads/e51ef2eb71780b9f90080964b935faff.jpg",
+            "https://s3-ap-southeast-2.amazonaws.com/local-flourish/images/plants/9/85741e8d87badbf541130f56a4bb95ed/hd/cauliflower_high_2-85741e8d87badbf541130f56a4bb95ed.jpg",
           seasonality: "In season from March until November",
           history:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
