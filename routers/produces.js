@@ -16,7 +16,7 @@ router.get("/produce/all", async (req, res, next) => {
 });
 
 //get all produces per country
-router.get("/:countryId/produce/all", async (req, res, next) => {
+router.get("/produce/:countryId", async (req, res, next) => {
   try {
     const countryId = req.params.countryId;
 
