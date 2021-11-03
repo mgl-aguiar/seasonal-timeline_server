@@ -26,7 +26,7 @@ module.exports = {
           email: "fazendabio@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg: "",
-          website: "sitiofake.pt",
+          website: "fazendabio.pt",
           phone: "+351 123456",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
