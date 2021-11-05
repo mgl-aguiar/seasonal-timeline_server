@@ -3,6 +3,7 @@ const router = new Router();
 
 const Produce = require("../models").produce;
 const Country = require("../models").country;
+const User = require("../models").user;
 
 // get all produces
 router.get("/produce/all", async (req, res, next) => {
@@ -36,7 +37,9 @@ router.get("/produce/details/:produceId", async (req, res, next) => {
   try {
     const produceId = parseInt(req.params.produceId);
 
-    const produceDetails = await Produce.findByPk(produceId);
+    const produceDetails = await Produce.findByPk(produceId, {
+      include: [User],
+    });
 
     if (produceDetails) {
       res.send(produceDetails);
