@@ -51,4 +51,25 @@ router.get("/produce/details/:produceId", async (req, res, next) => {
   }
 });
 
+//get local producer with produces
+router.get("/producer/:producerId", async (req, res, next) => {
+  try {
+    const producerId = parseInt(req.params.producerId);
+
+    const producer = await User.findByPk(producerId, {
+      include: [Produce],
+    });
+
+    delete producer.dataValues["password"];
+
+    if (producer) {
+      res.send(producer);
+    } else {
+      res.status(404).send({ message: "Local producer not found" });
+    }
+  } catch (error) {
+    next(error);
+  }
+});
+
 module.exports = router;
