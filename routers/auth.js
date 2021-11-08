@@ -3,6 +3,7 @@ const { Router } = require("express");
 const { toJWT } = require("../auth/jwt");
 const authMiddleware = require("../auth/middleware");
 const User = require("../models/").user;
+const UserProduces = require("../models/").userProduces;
 const { SALT_ROUNDS } = require("../config/constants");
 
 const router = new Router();
@@ -45,6 +46,7 @@ router.post("/signup", async (req, res) => {
     description,
     location,
     countryId,
+    produces,
   } = req.body;
   if (!email || !password || !name || !countryId) {
     return res
@@ -65,12 +67,21 @@ router.post("/signup", async (req, res) => {
       countryId,
     });
 
+    const newUserProduces = produces.map(async (element) => {
+      return await UserProduces.create({
+        userId: newUser.id,
+        produceId: element,
+      });
+    });
+    await Promise.all(newUserProduces);
+
     delete newUser.dataValues["password"]; // don't send back the password hash
 
     const token = toJWT({ userId: newUser.id });
 
     res.status(201).json({ token, ...newUser.dataValues });
   } catch (error) {
+    console.log(error.message);
     if (error.name === "SequelizeUniqueConstraintError") {
       return res
         .status(400)
