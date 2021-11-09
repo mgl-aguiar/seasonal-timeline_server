@@ -72,4 +72,31 @@ router.get("/producer/:producerId", async (req, res, next) => {
   }
 });
 
+// edit producer profile
+router.patch("/producer/edit/:producerId", async (req, res, next) => {
+  try {
+    const producerId = parseInt(req.params.producerId);
+
+    const producerProfile = await User.findByPk(producerId, {
+      include: [Produce],
+    });
+
+    const { name, description, website, phone, profileImg, location } =
+      req.body;
+
+    await producerProfile.update({
+      name,
+      description,
+      website,
+      phone,
+      profileImg,
+      location,
+    });
+
+    res.send(producerProfile);
+  } catch (error) {
+    next(error.message);
+  }
+});
+
 module.exports = router;
