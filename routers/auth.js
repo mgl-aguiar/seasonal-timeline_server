@@ -46,7 +46,7 @@ router.post("/signup", async (req, res) => {
     description,
     location,
     countryId,
-    produces,
+    produceIdArray,
   } = req.body;
   if (!email || !password || !name || !countryId) {
     return res
@@ -67,7 +67,7 @@ router.post("/signup", async (req, res) => {
       countryId,
     });
 
-    const newUserProduces = produces.map(async (element) => {
+    const newUserProduces = produceIdArray.map(async (element) => {
       return await UserProduces.create({
         userId: newUser.id,
         produceId: element,
