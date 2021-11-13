@@ -15,6 +15,11 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
         },
+        {
+          name: "Greece",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
       ],
       {}
     );
