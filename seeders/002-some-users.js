@@ -24,7 +24,7 @@ module.exports = {
         },
         {
           name: "Jon's farm",
-          email: "joe@.com",
+          email: "jon@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg:
             "http://wwoof.com.au/wp-content/uploads/mediapress/members/8099/33340/150412050-2.jpg",
