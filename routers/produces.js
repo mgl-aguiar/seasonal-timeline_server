@@ -4,6 +4,7 @@ const router = new Router();
 const Produce = require("../models").produce;
 const Country = require("../models").country;
 const User = require("../models").user;
+const UserProduces = require("../models").userProduces;
 
 // get all produces
 router.get("/produce/all", async (req, res, next) => {
@@ -81,8 +82,28 @@ router.patch("/producer/edit/:producerId", async (req, res, next) => {
       include: [Produce],
     });
 
-    const { name, description, website, phone, profileImg, location } =
-      req.body;
+    const {
+      name,
+      description,
+      website,
+      phone,
+      profileImg,
+      location,
+      produceIdArray,
+    } = req.body;
+
+    await UserProduces.destroy({
+      where: {
+        userId: producerId,
+      },
+    });
+
+    produceIdArray.map(async (eachProduceId) => {
+      return await UserProduces.create({
+        userId: producerId,
+        produceId: eachProduceId,
+      });
+    });
 
     await producerProfile.update({
       name,
