@@ -12,7 +12,7 @@ module.exports = {
           email: "madeleine@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg:
-            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637061200/seasonal%20timeline/producers/fazenda-bio.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637061227/seasonal%20timeline/producers/madeleine.jpg",
           website: "theorganicfarm.nl",
           phone: "+31 1234567",
           description:
