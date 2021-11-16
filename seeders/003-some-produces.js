@@ -8,7 +8,7 @@ module.exports = {
         {
           name: "Aubergine",
           imageUrl:
-            "http://www.erentarim.com/sites/default/files/styles/1920_720/public/eggplant_2.jpg?itok=e_KJQklU",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060437/seasonal%20timeline/produces/aubergine.jpg",
           seasonality: "In season from May until September",
           history:
             "There is no consensus about the place of origin of aubergine; the plant species has been described as native to India, where it continues to grow wild, Africa, or South Asia. It has been cultivated in southern and eastern Asia since prehistory. Because of the plant's relationship with various other nightshades, the fruit was at one time believed to be extremely poisonous. The flowers and leaves can be poisonous if consumed in large quantities due to the presence of solanine.",
@@ -24,7 +24,7 @@ module.exports = {
         {
           name: "Asparagus",
           imageUrl:
-            "https://eatsmartidahointhekitchen.com/wp-content/uploads/2020/05/asparagus-iStock-1084123600.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060683/seasonal%20timeline/produces/asparagus.jpg",
           seasonality: "In season from mid March until mid July",
           history:
             "Arguably the most iconic of the spring vegetables, asparagus is grown around the world and has been celebrated for millennia. Ancient Egyptians are said to have enjoyed it as many as 20,000 years ago, and Rome’s first emperor, Augustus, employed a whole group of ships, the so-called “asparagus fleet,” to transport huge shipments of it. Any asparagus enthusiast will tell you that despite its year-round appearance in modern American grocery stores, it is far tastier grown locally and enjoyed in the spring. But our modern tendency to go to great lengths to eat it whenever we want isn’t new. France’s King Louis XIV had special greenhouses built to grow the delicacy year-round, the Romans were known to freeze it in the Alps and both they and the Greeks reportedly dried it for off-season noshing.",
@@ -40,7 +40,7 @@ module.exports = {
         {
           name: "Beetroot",
           imageUrl:
-            "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/beetroot.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060504/seasonal%20timeline/produces/beetroot.jpg",
           seasonality: "In season from September until March",
           history:
             "Beets were domesticated in the ancient Middle East, primarily for their greens, and were grown by the Ancient Egyptians, Greeks and Romans. By the Roman era, it is thought that they were cultivated for their roots as well. From the Middle Ages, beetroot was used as a treatment for a variety of conditions, especially illnesses relating to digestion and the blood.",
@@ -56,7 +56,7 @@ module.exports = {
         {
           name: "Blueberry",
           imageUrl:
-            "https://www.naturalhealth365.com/wp-content/uploads/2016/04/blueberries.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060615/seasonal%20timeline/produces/blueberries.jpg",
           seasonality: "In season from mid June until mid September",
           history:
             "Blueberries are native to North America, although they have botanical relatives around the world. They have been harvested for thousands of years by Native North American tribes, who used the plant as both food and medicine; for many tribes, blueberries (and their cousin huckleberries) were important both culturally and economically. Wild blueberries were first harvested commercially in the 1840s.",
@@ -72,7 +72,7 @@ module.exports = {
         {
           name: "Brussels sprout",
           imageUrl:
-            "https://www.eattobeat.org/uploads/e51ef2eb71780b9f90080964b935faff.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1636986835/seasonal%20timeline/produces/brussels-sprout.jpg",
           seasonality: "In season from mid September until March",
           history:
             "Although native to the Mediterranean region with other cabbage species, Brussels sprouts first appeared in northern Europe during the 5th century, later being cultivated in the 13th century near Brussels, Belgium, from which they derived their name. Forerunners to modern Brussels sprouts were probably cultivated in Ancient Rome. The first written reference dates to 1587. During the 16th century, they enjoyed a popularity in the southern Netherlands that eventually spread throughout the cooler parts of Northern Europe. ",
@@ -88,7 +88,7 @@ module.exports = {
         {
           name: "Cauliflower",
           imageUrl:
-            "https://s3-ap-southeast-2.amazonaws.com/local-flourish/images/plants/9/85741e8d87badbf541130f56a4bb95ed/hd/cauliflower_high_2-85741e8d87badbf541130f56a4bb95ed.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060061/seasonal%20timeline/produces/cauliflower.jpg",
           seasonality: "In season from March until November",
           history:
             "In the Middle Ages, early forms of cauliflower were associated with the island of Cyprus, with the 12th- and 13th-century Arab botanists Ibn al-'Awwam and Ibn al-Baitar, claiming its origin to be Cyprus. This association continued into Western Europe, where cauliflowers were sometimes known as Cyprus colewort, and there was extensive trade in western Europe in cauliflower seeds from Cyprus, under the French Lusignan rulers of the island, until well into the 16th century. They were introduced to France from Genoa in the 16th century, but they did not commonly appear on grand tables until the time of Louis XIV. It was introduced to India in 1822 by the British.",
@@ -104,7 +104,7 @@ module.exports = {
         {
           name: "Celeriac",
           imageUrl:
-            "https://foodprint.org/wp-content/uploads/2018/10/AdobeStock_68328453-e1539129935331.jpeg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060556/seasonal%20timeline/produces/celeriac.jpg",
           seasonality: "In season from mid August until mid April",
           history:
             "Despite popular belief, celeriac is not the “root” of stalk celery but a close relative. Both are descendants of wild celery which dates to ancient Egypt, where it was used as a medicinal plant. Also known as celery root, knob celery and turnip celery, celery root is a native of the Mediterranean. It became available in North America in the 19th century but was largely ignored. Historically, it has been much better known in Europe, where it still grows wild.",
@@ -120,7 +120,7 @@ module.exports = {
         {
           name: "Sweet corn",
           imageUrl:
-            "https://www.cheatsheet.com/wp-content/uploads/2016/06/corn-cob-sweet-maize.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060471/seasonal%20timeline/produces/sweet-corn.jpg",
           seasonality: "In season from June until October",
           history:
             "Corn, aka maize, is actually a grass native to Central and South America. Corn was probably first cultivated in Mexico, where archeological evidence points to the first human-grown corn dating from 5500 BC. Cultivation of the grain then spread North to New Mexico and South to Peru, then to other regions of South America. It eventually became an important staple food in much of South, Central and North America.",
@@ -136,7 +136,7 @@ module.exports = {
         {
           name: "Cucumber",
           imageUrl:
-            "https://cdn.shopify.com/s/files/1/1341/9165/products/cucumberburpless_1200x1200.jpg?v=1595160028",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060323/seasonal%20timeline/produces/cucumber.jpg",
           seasonality: "In season from June until October",
           history:
             "A native of India, the cucumber is among the oldest domesticated plants, referenced in literature and art from antiquity. Along with caper buds, figs, grapes and honey, wild cucumbers are mentioned in “Gilgamesh,”  one of the earliest surviving works of literature from around 3,000 BCE. The cucumber (or its wild ancestor) also makes appearances in the Bible: The Israelites reminisce about it amongst the food they ate as slaves in Numbers 11:5 and it’s also mentioned in the Book of Isaiah. In first century CE, the cucumber was a favorite of the Roman emperor Tiberius, who had greenhouses constructed to satisfy his year-round cucumber cravings. Fast forward 700 or so years, and the cucumber continued to be prized among the ruling class. Medieval emperor Charlemagne insisted that the cucumber be planted in all the gardens of his many estates.",
@@ -152,7 +152,7 @@ module.exports = {
         {
           name: "Courgette",
           imageUrl:
-            "https://vitalseeds.co.uk/wp-content/uploads/2018/11/Courgette-Cocozelle-4.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1636986810/seasonal%20timeline/produces/courgette.jpg",
           seasonality: "In season from mid May until November",
           history:
             "Courgette, like all squash, has its ancestry in the Americas, specifically Mesoamerica where it was first domesticated over 7000 years ago. However, the varieties of green, cylindrical squash harvested immature and typically called 'courgette' were cultivated in northern Italy, as much as three centuries after the introduction of cucurbits from the Americas. ",
@@ -168,7 +168,7 @@ module.exports = {
         {
           name: "Sweet potato",
           imageUrl:
-            "https://www.saratogafarmersmarket.org/wp-content/uploads/2017/01/Sweet-potatoes-by-Pattie-Garrett.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060240/seasonal%20timeline/produces/sweet-potatoes.jpg",
           seasonality: "In season from September until December",
           history:
             "The origin of the sweet potato is thought to be somewhere between southern Mexico and Venezuela, but current research narrows the field to Central America. It was probably domesticated in Peru between 4,000 and 5,000 years ago. Columbus took the plant home with him when he returned to Europe in the late 15th century, and from there Spanish and Portuguese explorers dispersed it to the rest of the world. The exception to this is Polynesia: sweet potatoes were already being cultivated by the 13th century (long before European contact) on several far-flung Polynesian islands, and became an important staple food on some.",
@@ -184,7 +184,7 @@ module.exports = {
         {
           name: "Strawberry",
           imageUrl:
-            "https://www.gardeningknowhow.com/wp-content/uploads/2019/04/Honeoye.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060298/seasonal%20timeline/produces/strawberry.jpg",
           seasonality: "In season from March until October",
           history:
             "There are native varieties of wild strawberries in both the Old and New Worlds, ranging from South America to Europe to Asia. A member of the Rosaceae family (along with roses, apples and blackberries), they have been cultivated in Europe since the 14th century, though there is some evidence that Native Americans may have gardened the North American wild variety even earlier (and created one of the first versions of strawberry shortcake, made by mixing them with cornmeal). Unlike any other fruit, strawberry seeds are on the outside (rather than the inside) of the fruit, technically making the strawberry not a berry at all. ",
@@ -200,7 +200,7 @@ module.exports = {
         {
           name: "Cherry",
           imageUrl:
-            "https://www.supermarketperimeter.com/ext/resources/cherries-stemilt-sp.jpg?height=635&t=1557177476&width=1200",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060643/seasonal%20timeline/produces/cherries.jpg",
           seasonality: "In season from June until September",
           history:
             "The English word cherry derives from Old Northern French or Norman cherise from the Latin cerasum, referring to an ancient Greek region, Kerasous near Giresun, Turkey, from which cherries were first thought to be exported to Europe. The indigenous range of the sweet cherry extends through most of Europe, western Asia, and parts of northern Africa, and the fruit has been consumed throughout its range since prehistoric times. A cultivated cherry is recorded as having been brought to Rome by Lucius Licinius Lucullus from northeastern Anatolia, also known as the Pontus region, in 72 BC.",
@@ -216,7 +216,7 @@ module.exports = {
         {
           name: "Grape",
           imageUrl:
-            "http://www.homepreservingbible.com/wp-content/uploads/2016/08/Fresh-tables-grapes-Photo-by-Carole-Cancler.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637059961/seasonal%20timeline/produces/grapes.jpg",
           seasonality: "In season from July until December",
           history:
             "The Middle East is generally described as the homeland of grape and the cultivation of this plant began there 6,000–8,000 years ago. Yeast, one of the earliest domesticated microorganisms, occurs naturally on the skins of grapes, leading to the discovery of alcoholic drinks such as wine. The earliest archeological evidence for a dominant position of wine-making in human culture dates from 8,000 years ago in Georgia. Ancient Egyptian hieroglyphics record the cultivation of purple grapes, and history attests to the ancient Greeks, Cypriots, Phoenicians, and Romans growing purple grapes both for eating and wine production. The growing of grapes would later spread to other regions in Europe, as well as North Africa, and eventually in North America.",
@@ -232,7 +232,7 @@ module.exports = {
         {
           name: "Peach",
           imageUrl:
-            "https://orcityfarmersmarket.com/wp-content/uploads/2018/08/DSC02411.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060207/seasonal%20timeline/produces/peaches.jpg",
           seasonality: "In season from early April until late November",
           history:
             "Although its botanical name Prunus persica refers to Persia, genetic studies suggest peaches originated in China, where they have been cultivated since the neolithic period. Recent evidence indicates that domestication occurred as early as 6000 BC in Zhejiang Province of China, where it was highly revered and continues to play an important role in the folklore of the Chinese people. In both China and Japan, the peach is a symbol of longevity and immortality.",
@@ -247,7 +247,8 @@ module.exports = {
         },
         {
           name: "Tomato",
-          imageUrl: "https://www.abelandcole.co.uk/media/7344_15922_z.jpg",
+          imageUrl:
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060728/seasonal%20timeline/produces/tomatoes.jpg",
           seasonality: "In season from early June until late November",
           history:
             "Tomatoes are native to western South America, where their ancestor was a teeny wild cherry variety. It is unclear whether tomatoes were first cultivated in Peru or in Mexico, but it is known that the Aztecs grew them along with tomato relatives tomatillos and chile peppers. From Mexico, tomatoes spread to Spain in the 16th century, where they hardly caught on like wildfire. Europeans were wary of tomatoes for another couple hundred years, apparently due to their botanical family connection to nightshades, several of which can be deadly. Tomatoes weren’t accepted as good eating until the 17th and 18th centuries, with Spain and Italy leading the way for future tomato world domination. According to “The Oxford Companion to Food,” the first printed recipe for a tomato dish is in a 17th century Neapolitan cookbook for “Tomato Sauce — Spanish Style,” and is easily recognizable as the very first printed recipe for marinara sauce. The Spanish spread the tomato to the rest of the world, including to their Caribbean colonies and to the Philippines, where the fruit then spread to Southeast Asia, and finally to the rest of Asia. The Spanish are probably also responsible for the introduction of the tomato in North America, having cultivated the plant in their colony of Florida.",
@@ -263,7 +264,7 @@ module.exports = {
         {
           name: "Pumpkin",
           imageUrl:
-            "https://cdn.shopify.com/s/files/1/0011/2341/8172/products/PU660-Small-Sugar-0X7A0592_1024x1024.jpg?v=1574626983g",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637060265/seasonal%20timeline/produces/pumpkin.jpg",
           seasonality: "In season from early August until late December",
           history:
             "Native to North America (northeastern Mexico and the southern United States), pumpkins are one of the oldest domesticated plants, having been used as early as 7,000 to 5,500 BC. Pumpkins are widely grown for commercial use and as food, aesthetics, and recreational purposes.",
@@ -279,7 +280,7 @@ module.exports = {
         {
           name: "Parsnip",
           imageUrl:
-            "https://s3.amazonaws.com/cdn.gurneys.com/images/800/14694A.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1636986799/seasonal%20timeline/produces/parsnip.jpg",
           seasonality: "In season from early August until late October",
           history:
             "the wild parsnip probably hails from the southern part of Europe, around the Mediterranean, and most likely cultivated since Roman times. Roman scholar Pliny the Elder refers to pastinaca in his “Naturalis Historia” in first century CE, but many historians claim that he was referring to both the parsnip and its more pigmented cousin, the carrot. From there the root migrated north and found its way into the medieval gardens of France, Britain and Germany. In his book “Cabbages and Kings,” culinary scholar Jonathan Roberts notes that Charlemagne insisted that parsnips be grown on his 9th century estate. Until the potato arrived from the New World, the parsnip was the apparent root of choice in medieval Europe, providing both humans and their livestock starchy sustenance (parsnips still have a reputation as animal feed) and it was a sweet alternative to honey, which was scarce.",

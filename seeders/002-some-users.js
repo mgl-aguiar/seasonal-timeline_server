@@ -12,7 +12,7 @@ module.exports = {
           email: "madeleine@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg:
-            "https://foodtolive.com/healthy-blog/wp-content/uploads/sites/3/2017/06/3c271c9f57143d83376b8928faadcc56.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637061200/seasonal%20timeline/producers/fazenda-bio.jpg",
           website: "theorganicfarm.nl",
           phone: "+31 1234567",
           description:
@@ -27,7 +27,7 @@ module.exports = {
           email: "jon@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg:
-            "http://wwoof.com.au/wp-content/uploads/mediapress/members/8099/33340/150412050-2.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637061165/seasonal%20timeline/producers/jons-farm.jpg",
           website: "",
           phone: "+31 555666",
           description:
@@ -42,7 +42,7 @@ module.exports = {
           email: "fazendabio@email.com",
           password: bcrypt.hashSync("1234", SALT_ROUNDS),
           profileImg:
-            "https://im.whatshot.in/img/2020/Apr/istock-870915532-cropped-1587552820.jpg",
+            "https://res.cloudinary.com/dbyywopzz/image/upload/v1637061200/seasonal%20timeline/producers/fazenda-bio.jpg",
           website: "fazendabio.pt",
           phone: "+351 123456",
           description:
