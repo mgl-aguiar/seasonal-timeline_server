@@ -1,4 +1,4 @@
-### Back-end repository for the project **Seasonal Timeline**
+### Back-end repository for the project **Seasonally**
 
 ---
 
